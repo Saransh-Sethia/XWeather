@@ -28,6 +28,7 @@ const Home = () => {
     <div>
       <input
         placeholder="Enter city name"
+        type="text"
         value={queryField}
         onChange={handleChange}
       />
